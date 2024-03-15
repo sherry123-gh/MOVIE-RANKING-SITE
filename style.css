@@ -1,0 +1,168 @@
+@media (max-width:1000px){
+    h1{
+        color:#222831;
+        font-size:50px;
+        text-align:left;
+        font-family: "Open Sans", sans-serif;
+    }
+    img{
+        width: 100%;
+        
+    }
+
+}
+@media(min-width:490px) and (max-width:768px){
+    img{
+        margin-left: 10%;
+        max-width: 40px;
+
+    }
+    .move{
+        display: block;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+
+}
+h1{
+    color:#222831;
+    font-size:50px;
+    text-align:left;
+    font-family: "Open Sans", sans-serif;
+}
+h2{
+    color:#222831;   
+   }
+p{
+    font-size: 20px;
+    color:#222831;
+}
+*{
+    text-decoration:none;
+    max-width:none;
+}
+.navbar{
+    background-color:#222831;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right:15px;
+    padding-left: 15px;
+    display: flex;
+
+}
+.navdiv li a:hover{
+    background-color: #76ABAE;
+    color: #222831;
+}
+.navdiv{
+   
+    align-items: left;
+    display:inline-flexbox;
+}
+.navdiv li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+}
+.navdiv li a{
+    color:rgb(245, 248, 250);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right:25px;
+    font-family: "Armata", sans-serif;
+}
+.footerNav{
+          background-color:#222831;
+          text-decoration:none;
+          color: aliceblue;
+}
+.footerNav a {
+       color: aliceblue;
+       font-size: 18px;
+       font-weight: bold;
+       margin-right:25px;
+       text-align:left;
+       list-style:iherit;
+       display:inline-block;
+       line-height-step:60px;
+       width:50px;
+       border-radius: 10px;
+}
+
+.move{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.move button{
+    color:#76ABAE;
+    background-color:#222831;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    font-family: "Hammersmith One", sans-serif;
+}
+.move button:hover{
+    background-color: #296568;
+    color: #222831;
+}
+.move p{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.walk{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+
+}
+.walk button{
+    color:#76ABAE;
+    background-color:#222831;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    font-family: "Hammersmith One", sans-serif;
+
+}
+.walk p{
+    color: aliceblue;
+    font-size: 30px;
+}
+.dropdown button{
+    background-color:#222831;
+    color: white;
+    padding: 10px 15px;
+    border:none;
+    cursor:pointer;
+    font-size: 20px;
+    border-radius: 2rem;
+
+}
+.dropdown a{
+    display:block;
+    color:black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display:none ;
+    background-color: white;
+    position:absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.753);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: #222831;
+}
+.dropdown a:hover{
+    background-color: #252c35;
+
+}
